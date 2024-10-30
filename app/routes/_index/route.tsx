@@ -2,11 +2,13 @@ import { CategoryLink } from '~/src/components/category-link/category-link';
 import { FeaturedProductsSection } from '~/src/components/featured-products-section/featured-products-section';
 import { LabelWithArrow } from '~/src/components/label-with-arrow/label-with-arrow';
 import { BackgroundParallax, FadeIn, FloatIn } from '~/lib/components/visual-effects';
+import { Button } from '~/src/components/button/button';
 
 export default function HomePage() {
     return (
         <div>
             <div className="heroBanner">
+            <Button></Button>
                 <img
                     src="https://static.wixstatic.com/media/32aab9_2c3c65e142434906992aedb17db53566~mv2.jpg"
                     className="heroBannerImage"
