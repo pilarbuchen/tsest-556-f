@@ -1,0 +1,18 @@
+:root {
+    font: var(--paragraph1);
+    color: var(--primary5);
+    -webkit-font-smoothing: antialiased;
+    --pagePaddingHoriz: max(2vw, 15px);
+}
+
+body {
+    min-width: 320px;
+    min-height: 100vh;
+    background: var(--primary1);
+}
+
+:focus-visible {
+    box-shadow:
+        0 0 0 1px #ffffff,
+        0 0 0 3px #116dff;
+}
